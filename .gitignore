@@ -1,0 +1,41 @@
+# Download model weights locally; distribute code separately.
+/pretrain_models/
+*.onnx
+*.pth
+*.pt
+*.engine
+
+# Local environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+/cache/
+.pytest_cache/
+.ruff_cache/
+
+# IDE and operating-system metadata.
+.idea/
+.vscode/
+.DS_Store
+._*
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local media and generated output.
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.aac
+*.wav
+*.log
